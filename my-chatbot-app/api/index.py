@@ -46,8 +46,8 @@ def load_excel_data(file_path):
         logger.error(f"Error loading file {file_path}: {e}")
         raise HTTPException(status_code=500, detail=f"Error loading file {file_path}")
 
-billing_path = r"C:\Users\rahul.k\Desktop\javafor practice\Practice1.java\JAVA program\my-chatbot-app\master table data.xlsx"
-complaints_path = r"C:\Users\rahul.k\Desktop\javafor practice\Practice1.java\JAVA program\my-chatbot-app\complaints.xlsx"
+billing_path = "master table data.xlsx"
+complaints_path = "complaints.xlsx"
 
 billing_df = load_excel_data(billing_path)
 complaints_df = load_excel_data(complaints_path)
