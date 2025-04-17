@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pandas
+torch
+transformers
+langdetect
+slowapi
+cachetools
+jinja2
+openpyxl
